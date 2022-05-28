@@ -11,8 +11,6 @@ class App extends Component {
         <Conversor moedaA="USD" moedaB="BRL" />
         <Text style={styles.moeda}>Euro</Text>
         <Conversor moedaA="EUR" moedaB="BRL" />
-        <Text style={styles.moeda}>Libra</Text>
-        <Conversor moedaA="GBP" moedaB="BRL" />
       </View>
     );
   }
@@ -23,6 +21,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+    backgroundColor: 'yellow',
   },
   moeda: {
     fontSize: 30,
